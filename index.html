@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-  <section class="card" data-state="#about">
+  <section class="card" data-state="#bio">
   <div class="card-header">
     <div class="card-cover" style="background-image: url('images/background-pic.jpg')">
     </div>
@@ -15,10 +15,12 @@
     <h1 class="card-fullname" data-testid="fullName">STANLEY MERUO</h1>
     <h2 class="card-jobtitle" data-testid="jobTitle">FRONTEND & WEB DEVELOPER</h2>
   </div>
+
+  <!-- BIO SECTION -->
   <div class="card-main">
-    <div class="card-section is-active" id="about">
+    <div class="card-section is-active" id="bio">
       <div class="card-content">
-        <div class="card-subtitle">ABOUT</div>
+        <div class="card-subtitle">BIO</div>
         <p class="card-desc" data-testid="shortBio">A Passionate Frontend Developer who loves creating dynamic and user-friendly web applications. Proficient in HTML, CSS, and JavaScript, I utilize frameworks like React and Tailwind CSS to build responsive interfaces. I thrive on solving complex problems and am always eager to learn and collaborate on innovative projects.
         </p>
       </div>
@@ -59,7 +61,7 @@
       </div>
     </div>
 
-    <!-- CONTACT -->
+    <!-- CONTACT SECTION -->
     <div class="card-section" id="contact">
       <div class="card-content">
         <div class="card-subtitle">CONTACT</div>
@@ -85,7 +87,7 @@
       </div>
     </div>
     <div class="card-buttons">
-      <button data-section="#about" class="is-active">ABOUT</button>
+      <button data-section="#bio" class="is-active">BIO</button>
       <button data-section="#contact">CONTACT</button>
     </div>
   </div>

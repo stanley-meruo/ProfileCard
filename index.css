@@ -45,10 +45,10 @@ body {
   }
 }
 
-.card[data-state="#about"] {
+.card[data-state="#bio"] {
   height: 450px;
 }
-.card[data-state="#about"] .card-main {
+.card[data-state="#bio"] .card-main {
   padding-top: 0;
 }
 .card[data-state="#contact"] {
