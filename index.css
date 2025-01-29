@@ -20,7 +20,7 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: 340px;
   margin: auto;
   overflow-y: auto;
   position: relative;
@@ -32,6 +32,17 @@ body {
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+
+}
+@media screen and (min-width: 600px) {
+  .card {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card {
+    width: 450px;
+  }
 }
 
 .card[data-state="#about"] {
